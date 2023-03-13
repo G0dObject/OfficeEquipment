@@ -1,0 +1,12 @@
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Domain\bin\Debug\net6.0\OfficeEquipment.Domain.deps.json
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Domain\bin\Debug\net6.0\OfficeEquipment.Domain.dll
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Domain\bin\Debug\net6.0\OfficeEquipment.Domain.pdb
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Domain\obj\Debug\net6.0\OfficeEquipment.Domain.csproj.AssemblyReference.cache
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Domain\obj\Debug\net6.0\OfficeEquipment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Domain\obj\Debug\net6.0\OfficeEquipment.Domain.AssemblyInfoInputs.cache
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Domain\obj\Debug\net6.0\OfficeEquipment.Domain.AssemblyInfo.cs
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Domain\obj\Debug\net6.0\OfficeEquipment.Domain.csproj.CoreCompileInputs.cache
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Domain\obj\Debug\net6.0\OfficeEquipment.Domain.dll
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Domain\obj\Debug\net6.0\refint\OfficeEquipment.Domain.dll
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Domain\obj\Debug\net6.0\OfficeEquipment.Domain.pdb
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Domain\obj\Debug\net6.0\ref\OfficeEquipment.Domain.dll

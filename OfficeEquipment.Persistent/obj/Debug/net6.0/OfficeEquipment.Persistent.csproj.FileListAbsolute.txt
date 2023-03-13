@@ -1,0 +1,17 @@
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Persistent\bin\Debug\net6.0\OfficeEquipment.Persistent.deps.json
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Persistent\bin\Debug\net6.0\OfficeEquipment.Persistent.dll
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Persistent\bin\Debug\net6.0\OfficeEquipment.Persistent.pdb
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Persistent\bin\Debug\net6.0\OfficeEquipment.Domain.dll
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Persistent\bin\Debug\net6.0\OfficeEquipment.Domain.pdb
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Persistent\obj\Debug\net6.0\OfficeEquipment.Persistent.csproj.AssemblyReference.cache
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Persistent\obj\Debug\net6.0\OfficeEquipment.Persistent.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Persistent\obj\Debug\net6.0\OfficeEquipment.Persistent.AssemblyInfoInputs.cache
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Persistent\obj\Debug\net6.0\OfficeEquipment.Persistent.AssemblyInfo.cs
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Persistent\obj\Debug\net6.0\OfficeEquipment.Persistent.csproj.CoreCompileInputs.cache
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Persistent\obj\Debug\net6.0\OfficeEquipment.Persistent.csproj.CopyComplete
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Persistent\obj\Debug\net6.0\OfficeEquipment.Persistent.dll
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Persistent\obj\Debug\net6.0\refint\OfficeEquipment.Persistent.dll
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Persistent\obj\Debug\net6.0\OfficeEquipment.Persistent.pdb
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Persistent\obj\Debug\net6.0\ref\OfficeEquipment.Persistent.dll
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Persistent\bin\Debug\net6.0\OfficeEquipment.Application.dll
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Persistent\bin\Debug\net6.0\OfficeEquipment.Application.pdb

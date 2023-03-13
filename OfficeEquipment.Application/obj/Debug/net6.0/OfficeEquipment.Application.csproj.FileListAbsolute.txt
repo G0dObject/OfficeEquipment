@@ -1,0 +1,15 @@
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Application\bin\Debug\net6.0\OfficeEquipment.Application.deps.json
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Application\bin\Debug\net6.0\OfficeEquipment.Application.dll
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Application\bin\Debug\net6.0\OfficeEquipment.Application.pdb
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Application\bin\Debug\net6.0\OfficeEquipment.Domain.dll
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Application\bin\Debug\net6.0\OfficeEquipment.Domain.pdb
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Application\obj\Debug\net6.0\OfficeEquipment.Application.csproj.AssemblyReference.cache
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Application\obj\Debug\net6.0\OfficeEquipment.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Application\obj\Debug\net6.0\OfficeEquipment.Application.AssemblyInfoInputs.cache
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Application\obj\Debug\net6.0\OfficeEquipment.Application.AssemblyInfo.cs
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Application\obj\Debug\net6.0\OfficeEquipment.Application.csproj.CoreCompileInputs.cache
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Application\obj\Debug\net6.0\OfficeEquipment.Application.csproj.CopyComplete
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Application\obj\Debug\net6.0\OfficeEquipment.Application.dll
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Application\obj\Debug\net6.0\refint\OfficeEquipment.Application.dll
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Application\obj\Debug\net6.0\OfficeEquipment.Application.pdb
+C:\Users\vladi\OneDrive\Документы\DotNet\OfficeEquipment\OfficeEquipment.Application\obj\Debug\net6.0\ref\OfficeEquipment.Application.dll
