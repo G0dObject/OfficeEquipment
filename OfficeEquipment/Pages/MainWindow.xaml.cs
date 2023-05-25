@@ -1,6 +1,8 @@
 ﻿using OfficeEquipment.Application.Device.Delete;
+using OfficeEquipment.Application.Device.Get;
 using OfficeEquipment.Domain.Entities;
 using OfficeEquipment.Pages.Modal;
+using OfficeEquipment.Pages.Pages;
 using OfficeEquipment.Persistent;
 using System;
 using System.Collections.Generic;
@@ -29,12 +31,12 @@ namespace OfficeEquipment
 
 		internal void LoadData()
 		{
-			DeviceGrid.ItemsSource = _context.Devices.ToList();
+			DeviceGrid.ItemsSource = _context.Orders.ToList();
 		}
 		internal void LoadData(string search)
 		{
-			List<Device> all = _context.Devices.ToList();
-			List<Device> items = all.Where(f => f.Name.ToLower().StartsWith(search.ToLower())).ToList();
+			List<Order> all = _context.Orders.ToList();
+			List<Order> items = all.Where(f => f.Name.ToLower().StartsWith(search.ToLower())).ToList();
 			DeviceGrid.ItemsSource = items;
 		}
 
@@ -59,7 +61,7 @@ namespace OfficeEquipment
 			//MessageBox.Show(sender.ToString());
 			//SelectGrid.Items.Clear();
 			DataGrid? g = sender as DataGrid;
-			Device? device = g.CurrentItem as Device;
+			Order? device = g.CurrentItem as Order;
 			if (device == null)
 				return;
 			_currentselect = device.Id;
@@ -86,8 +88,16 @@ namespace OfficeEquipment
 		private void Button_Click_4(object sender, RoutedEventArgs e)
 		{
 			int a = _currentselect;
-			new Edit(_currentselect, _context).ShowDialog();
+			new Edit(_currentselect, _context).ShowDialog(); SelectGrid.Items.Clear();
 			LoadData();
+
+
+
+		}
+
+		private void Window_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
+		{
+			Helper.Open(e);
 		}
 	}
 }

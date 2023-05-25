@@ -12,18 +12,16 @@ namespace OfficeEquipment.Application.Device.Edit
 
 		public async Task<int> Handle(EditCommand request)
 		{
-			Domain.Entities.Device? obj = await _context.Devices.Include(f => f.Department).Include(f => f.Employee).SingleOrDefaultAsync(f => f.Id == request.Id);
+			Domain.Entities.Order? obj = await _context.Orders.SingleOrDefaultAsync(f => f.Id == request.Id);
 
 			obj.Name = request.Name;
-			obj.Characteristics = request.Characteristics;
-			obj.Type = request.Type;
+			obj.Breaking = request.Breaking;
 			obj.Code = request.Code;
-			obj.NameInNet = request.NameInNet;
-			obj.IPAdress = request.IPAdress;
-			obj.Provider = request.Provider;
-			obj.Department = await _context.Departments.SingleOrDefaultAsync(f => f.Id == request.DepartmentId) ?? new Department() { Name = "New department" };
-			obj.Employee = await _context.Employees.SingleOrDefaultAsync(f => f.Id == request.EmployeeId) ?? new Employee() { Name = "New employee" };
-			_context.Devices.Update(obj);
+			obj.Details = request.Details;
+			obj.Type = request.Type;
+
+
+			_context.Orders.Update(obj);
 			await _context.SaveChangesAsync(new CancellationToken());
 			return 0;
 

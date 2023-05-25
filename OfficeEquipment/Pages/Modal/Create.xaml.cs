@@ -30,10 +30,6 @@ namespace OfficeEquipment.Pages.Modal
 
 		private void Button_Click(object sender, RoutedEventArgs e)
 		{
-			int dep;
-			int.TryParse(department.Text, out dep);
-			int emp;
-			int.TryParse(employee.Text, out emp);
 
 
 			CreateCommand command = new CreateCommand()
@@ -41,12 +37,9 @@ namespace OfficeEquipment.Pages.Modal
 				Type = type.Text,
 				Name = name.Text,
 				Code = code.Text,
-				DepartmentId = dep,
-				Characteristics = tech.Text,
-				EmployeeId = emp,
-				NameInNet = nameinnet.Text,
-				IPAdress = address.Text,
-				Provider = provider.Text
+				Breaking = @break.Text,
+				Details = details.Text,
+
 			};
 			Task<int> handle = new CreateCommandHandler(_context).Handle(command);
 		}

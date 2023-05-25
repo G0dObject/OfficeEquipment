@@ -4,6 +4,7 @@ using OfficeEquipment.Application.Authentication.Register;
 using OfficeEquipment.Application.Interfaces;
 using OfficeEquipment.Domain.Entities;
 using OfficeEquipment.Model;
+using OfficeEquipment.Pages.Pages;
 using System;
 using System.Windows;
 using System.Windows.Input;
@@ -27,7 +28,7 @@ namespace OfficeEquipment.Pages
 
 		private void Window_KeyDown(object sender, KeyEventArgs e)
 		{
-
+			Helper.Open(e);
 		}
 
 		private void SwapButton_Click(object sender, RoutedEventArgs e)

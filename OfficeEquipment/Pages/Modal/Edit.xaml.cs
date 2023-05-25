@@ -28,35 +28,26 @@ namespace OfficeEquipment.Pages.Modal
 		}
 		private async Task Load()
 		{
-			Device data = await new GetQueryHandler(_context).Handle(new GetQuery(id));
+			Order data = await new GetQueryHandler(_context).Handle(new GetQuery(id));
 			type.Text = data.Type;
 			name.Text = data.Name;
 			code.Text = data.Code;
-			department.Text = data.Department.Id.ToString();
-			employee.Text = data.Employee.Id.ToString();
-			tech.Text = data.Characteristics;
-			nameinnet.Text = data.NameInNet;
-			address.Text = data.IPAdress;
-			provider.Text = data.Provider;
+			@break.Text = data.Breaking;
+			details.Text = data.Details;
+
+
 		}
 		private async void Button_Click(object sender, RoutedEventArgs e)
 		{
-			int dep;
-			int.TryParse(department.Text, out dep);
-			int emp;
-			int.TryParse(employee.Text, out emp);
-
 			EditCommand command = new EditCommand(id)
 			{
 				Type = type.Text,
 				Name = name.Text,
 				Code = code.Text,
-				DepartmentId = dep,
-				Characteristics = tech.Text,
-				EmployeeId = emp,
-				NameInNet = nameinnet.Text,
-				IPAdress = address.Text,
-				Provider = provider.Text
+				Breaking = @break.Text,
+				Details = details.Text,
+				Id = id
+
 			};
 			EditCommandHandler handler = new EditCommandHandler(_context);
 			await handler.Handle(command);

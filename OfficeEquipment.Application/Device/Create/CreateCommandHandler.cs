@@ -14,10 +14,8 @@ namespace OfficeEquipment.Application.Device.Create
 		}
 		public async Task<int> Handle(CreateCommand request)
 		{
-			Domain.Entities.Device device = new Domain.Entities.Device(request.Name, request.Characteristics, request.Type, request.Code, request.NameInNet, request.IPAdress, request.Provider);
-			device.Department = await _context.Departments.SingleOrDefaultAsync(f => f.Id == request.DepartmentId) ?? new Department() { Name = "New department" };
-			device.Employee = await _context.Employees.SingleOrDefaultAsync(f => f.Id == request.EmployeeId) ?? new Employee() { Name = "New employee" };
-			await _context.Devices.AddAsync(device);
+			Domain.Entities.Order device = new Order(request.Id, request.Name, request.Breaking, request.Type, request.Code, request.Details);
+			await _context.Orders.AddAsync(device);
 			await _context.SaveChangesAsync(new CancellationToken());
 			return 0;
 		}

@@ -7,25 +7,18 @@
         mc:Ignorable="d"
         Title="Create" Height="450" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
 	<Grid>
-		<TextBox FontSize="20" x:Name="type" HorizontalAlignment="Left" Margin="141,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="177" Height="31"/>
-		<TextBox FontSize="20" x:Name="name" HorizontalAlignment="Left" Margin="141,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="177" Height="31"/>
-		<TextBox FontSize="20"  x:Name="tech" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="177" Height="31" Margin="141,186,0,0"/>
+		<TextBox FontSize="20" x:Name="name" HorizontalAlignment="Left" Margin="270,89,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="177" Height="31"/>
+		<TextBox FontSize="20" x:Name="details" HorizontalAlignment="Left" Margin="400,259,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="177" Height="31"/>
 		<TextBox FontSize="20" x:Name="code" HorizontalAlignment="Left" Margin="141,259,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="177" Height="31"/>
-		<TextBox FontSize="20" x:Name="nameinnet" HorizontalAlignment="Left" Margin="491,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="177" Height="31"/>
-		<TextBox FontSize="20" x:Name="department" HorizontalAlignment="Left" Margin="491,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="177" Height="31"/>
-		<TextBox FontSize="20" x:Name="employee" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="177" Height="31" Margin="491,186,0,0"/>
 		<Button Content="Добавить" FontSize="20" HorizontalAlignment="Center" Margin="0,367,0,0" VerticalAlignment="Top" Height="44" Width="144" Click="Button_Click"/>
-		<Label Content="Тип устройства" HorizontalAlignment="Left" Margin="141,11,0,0" VerticalAlignment="Top" Width="142"/>
-		<Label Content="Устройство" HorizontalAlignment="Left" Margin="141,79,0,0" VerticalAlignment="Top" Width="142"/>
-		<Label Content="Технические характеристики" HorizontalAlignment="Left" Margin="141,155,0,0" VerticalAlignment="Top" Width="177"/>
+		<Label Content="Тип устройства" HorizontalAlignment="Left" Margin="400,155,0,0" VerticalAlignment="Top" Width="142"/>
+		<Label Content="Детали под замену" HorizontalAlignment="Left" Margin="400,228,0,0" VerticalAlignment="Top" Width="142"/>
 		<Label Content="Штрих-код" HorizontalAlignment="Left" Margin="141,228,0,0" VerticalAlignment="Top" Width="142"/>
-		<Label Content="Имя в сети" HorizontalAlignment="Left" Margin="491,6,0,0" VerticalAlignment="Top" Width="142"/>
-		<Label Content="Отдел [Указать id]" HorizontalAlignment="Left" Margin="491,79,0,0" VerticalAlignment="Top" Width="142"/>
-		<Label Content="Сотрудник [Указать id]" HorizontalAlignment="Left" Margin="491,155,0,0" VerticalAlignment="Top" Width="142"/>
-		<Label Content="Ip-адрес" HorizontalAlignment="Left" Margin="491,228,0,0" VerticalAlignment="Top" Width="142"/>
-		<TextBox FontSize="20" x:Name="address" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="177" Height="31" Margin="491,259,0,0"/>
-		<Label Content="Поставщик" HorizontalAlignment="Center" Margin="0,277,0,0" VerticalAlignment="Top" Width="78"/>
-		<TextBox FontSize="20" x:Name="provider" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="162" Height="31" Margin="0,317,0,0"/>
+		<TextBox FontSize="20" x:Name="break" HorizontalAlignment="Left" Margin="141,186,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="177" Height="31"/>
+		<Label Content="Проблемма" HorizontalAlignment="Left" Margin="141,160,0,0" VerticalAlignment="Top" Width="142"/>
+		<Label Content="Штрих-код" HorizontalAlignment="Left" Margin="141,228,0,0" VerticalAlignment="Top" Width="142"/>
+		<TextBox FontSize="20" x:Name="type" HorizontalAlignment="Left" Margin="400,186,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="177" Height="31"/>
+		<Label Content="Фио заказчика" HorizontalAlignment="Left" Margin="288,58,0,0" VerticalAlignment="Top" Width="142"/>
 
 	</Grid>
 </Window>

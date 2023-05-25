@@ -7,7 +7,7 @@ namespace OfficeEquipment.Application.Interfaces
 	public interface IContext
 	{
 		public DbSet<User> Users { get; set; }
-		public DbSet<Domain.Entities.Device> Devices { get; set; }
+		public DbSet<Order> Orders { get; set; }
 		public DbSet<Department> Departments { get; set; }
 		public DbSet<Employee> Employees { get; set; }
 		public DbSet<Role> Roles { get; set; }

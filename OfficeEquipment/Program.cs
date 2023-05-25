@@ -5,6 +5,7 @@ using OfficeEquipment.Domain.Entities;
 using OfficeEquipment.Pages;
 using OfficeEquipment.Persistent;
 using System;
+using System.Linq;
 using System.Threading;
 using System.Windows;
 
@@ -25,13 +26,10 @@ namespace OfficeEquipment
 				   _ = services.AddSingleton<Authorization>();
 			   })
 			   .Build();
-
 			App app = host.Services.GetRequiredService<App>();
 			IContext db = host.Services.GetRequiredService<IContext>();
-
-
+			System.Collections.Generic.List<User> g = db.Users.ToList();
 			_ = app.Run();
-
 		}
 
 		internal static void OpenWindow(Type type)

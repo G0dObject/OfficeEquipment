@@ -16,7 +16,7 @@ namespace OfficeEquipment.Application.Device.Delete
 
 		public async Task<int> Handle(DeleteCommand request)
 		{
-			_context.Devices.Remove(await _context.Devices.SingleOrDefaultAsync(f => f.Id == request.Id));
+			_context.Orders.Remove(await _context.Orders.SingleOrDefaultAsync(f => f.Id == request.Id));
 			await _context.SaveChangesAsync(new CancellationToken());
 			return 0;
 		}
